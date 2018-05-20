@@ -1,0 +1,6 @@
+f = gzip.open('mnist.pkl.gz', 'rb')
+train_set, valid_set, test_set = cPickle.load(f)
+
+保存多阶段的checkpoint，用于迁移学习
+def plot_conv_layer_change :before and after optimize
+saver.latest_checkpoint(
